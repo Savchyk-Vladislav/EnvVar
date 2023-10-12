@@ -1,0 +1,6 @@
+all: main
+
+main: GetHostInfo.cpp
+	g++ GetHostInfo.cpp -o prog -w
+	./prog
+	

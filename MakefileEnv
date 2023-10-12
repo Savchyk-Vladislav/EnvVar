@@ -1,0 +1,5 @@
+environ: main.cpp environ.cpp
+	 g++ -o environ main.cpp environ.cpp
+
+clean:
+	 rm -f environ
